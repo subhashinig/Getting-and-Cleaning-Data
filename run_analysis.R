@@ -78,4 +78,4 @@ melted_data<-melt(Extracted_dataset,id=c("ActivityID","SubjectID"))					## melti
 Tidydata<-dcast(melted_data, SubjectID + ActivityID ~ variable, mean)				## casting the data to get mean for final tidy dataset
 
 ## ----------------------------------------------------- OUTPUT --------------------------------------------------------------------------------- ##
-write.table(Tidydata,"C:/Users/GopalanS/Documents/Adi/DataScience/Wk_3/Getting & Cleaning data/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/tidydata.txt")## tidy data will be generated in the specified path
+write.table(Tidydata,"C:/Users/GopalanS/Documents/Adi/DataScience/Wk_3/Getting & Cleaning data/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/tidydata.txt",row.names=FALSE)## tidy data will be generated in the specified path
