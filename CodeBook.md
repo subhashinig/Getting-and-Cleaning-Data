@@ -1,6 +1,6 @@
 ## Code book for "Getting and Cleaning Data - Peer Assignment"
 
-### Data Exracted
+### Data Extracted
 Following text files were uploaded to R variables,
 
 * X_test.txt -> X_test
